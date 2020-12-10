@@ -8,9 +8,4 @@ export default {
   components: {
     Banner
   }
-  // computed: mapState([
-  //   'autoEnrollRequested'
-  // ])
- 
-  
 }
