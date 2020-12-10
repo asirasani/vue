@@ -1,6 +1,6 @@
 <template>
   <div class="home container">
-    <p class="textprimary">We email your order receipt to example@gmail.com</p>
+    <p class="textprimary">Confirmation Page</p>
     <Banner/>
   </div>
 </template>
