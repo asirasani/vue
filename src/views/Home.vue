@@ -1,17 +1,22 @@
 <template>
   <div class="home container">
     <p class="textprimary">Confirmation Page</p>
-    <Banner/>
+    <LoyaltyRewards :auto-enrollment-status='autoEnrollStatus'/>
   </div>
 </template>
 
 <script>
-import Banner from '@/components/Banner.vue';
+import LoyaltyRewards from '@/components/Banner/LoyaltyRewards.vue';
 
 export default {
   name: 'Home',
   components: {
-    Banner
+    LoyaltyRewards
+  },
+  computed: {    
+    autoEnrollStatus() {
+      return this.$store.state.autoEnrollStatus;
+    }
   }
 }
 </script>

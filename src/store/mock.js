@@ -1,5 +1,5 @@
 export const mockData = {
     "loyaltyAccountLookupResponse": {
-        autoEnrollmentStatus: 'confirmedUserAutoEnroll'
+        autoEnrollmentStatus: 'autoEnrollRequested'
     }
 }

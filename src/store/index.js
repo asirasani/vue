@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    autoEnrollRequested: mockData.loyaltyAccountLookupResponse.autoEnrollmentStatus,
+    autoEnrollStatus: mockData.loyaltyAccountLookupResponse.autoEnrollmentStatus,
   },
   mutations: {
   },
