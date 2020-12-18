@@ -11,7 +11,7 @@ describe("LoyaltyRewards", () => {
         },
       });
     });
-    it("shows the correct Title", () => {
+    it("shows the correct header", () => {
       expect(bannerComponent.find(".header").text()).toBe("The Key Rewards")
     });
     it("shows the correct description", () => {
