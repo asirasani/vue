@@ -1,11 +1,11 @@
 <template>
 <!-- need to make this as reusable component which accpets title and message?? -->
   <div class="Banner">
-    <div class="row">
-      <div class="col-sm-1">
+    <div class="message-container">
+      <div class="key-icon">
           <KeyIcon/>
       </div>
-      <div class="col-sm-11">
+      <div>
           <div v-if="autoEnrollmentStatus == 'autoEnrollRequested' " class="header">
               The Key Rewards
           </div>
@@ -42,6 +42,15 @@ export default {
 
 <style lang="scss">
   @import "@/assets/styles/global"; 
+
+  .key-icon {
+    display: flex;
+    align-self: center;
+    padding-right: 12px;
+  }
+  .message-container{
+    display: inline-flex;
+  }
   .Banner{ 
     background-color: $black;
     color: $white;
